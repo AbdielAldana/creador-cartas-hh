@@ -1,38 +1,296 @@
+@font-face {
+  font-family:MadeTommyLight;
+  src: url(madetommylight.otf);
+}
+@font-face {
+  font-family:MadeTommyMeidum;
+  src: url(madetommymedium.otf);
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: rgb(244, 244, 244);
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  width: fit-content;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cart {
+  height: 1280px;
+  width: 904px;
+  background-color: gray;
+  /* background-image: url(img/cazador.png); */
+  position: relative;
+  background-size: contain;
+}
+
+
+.imageCharacter {
+  width: 770px;
+  height: 810px;
+  overflow: hidden;
+  border-radius: 100%;
+  position: absolute;
+  top: 78px;
+  left: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.447);
+}
+
+.imageCharacter .imageCharacter {
+  width: auto;
+}
+
+.options {
+  display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+    width: 600px;
+    justify-content: center;
+}
+
+h3 {
+  margin: 5px 0;
+  font-size: 23px;
+  font-weight: 100;
+}
+
+input, select {
+  width: 90%;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  margin: 15px 0;
+  background-color: black;
+}
+
+/* Nombre */
+
+.nameCard {
+  width: 905px;
+  height: 1280px;
+  position: absolute;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.nameCard img{
+  width: 100%;
+  filter: contrast(0.7);
+  height: 100%;
+
+}
+
+.nameCard .text {
+  position: absolute;
+  top: 31px;
+  left: 22%;
+  height: 75px;
+  width: 56%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+
+.nameCard .text h2 {
+  font-family: "MadeTommyMeidum";
+  /* font-size: 49px; */
+  text-align: center;
+  margin: 0;
+  letter-spacing: 5px;
+  
+}
+
+/* Ataques */
+
+.attacks {
+  position: absolute;
+  top: 727px;
+  height: 181px;
+  left: 53px;
+  width: 181px;
+}
+
+.attacks .one {
+  font-family: "MadeTommyLight";
+  position: absolute;
+  color: #D4C9B8;
+  top: 0px;
+  margin: 0;
+  left: 0px;
+  font-size: 36px;
+  /* background-color: red; */
+  height: 101px;
+  width: 101px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.attacks .one img {
+  width: 64px;
+  height: auto;
+}
+
+.attacks .two {
+  font-family: "MadeTommyLight";
+  position: absolute;
+  color: #D4C9B8;
+  bottom: 0;
+  margin: 0;
+  right: 0;
+  /* background-color: rebeccapurple; */
+  font-size: 36px;
+  height: 101px;
+  width: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attacks .two h2 img {
+  width: 64px;
+  height: auto;
+  margin: 9px 0 0 3px;
+}
+
+.attacks .one, .attacks .two {
+  margin: 0px !important;
+}
+
+/* Descripcion */
+
+.descripcion {
+  /* font-family: "MadeTommyLight"; */
+  
+  /* font-weight: bold; */
+  position: absolute;
+  bottom: 90px;
+  left: 64px;
+  height: 204px;
+  width: 770px;
+  z-index: 11;
+  overflow: hidden;
+  font-size: 24px;
+  /* background-color: rgba(255, 0, 0, 0.428); */
+}
+
+.descripcion div {
+  font-size: 30px !important;
+}
+
+.descripcion p {
+  
+  margin: 0;
+  line-height: 1.1;
+  text-align: justify;
+
+}
+
+.cocoros {
+  position: absolute;
+  bottom: 56px;
+  right: 60px;
+  height: 30px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cocoros img {
+  margin: 0 10px 0 0;
+  height: 25px;
+  width: auto;
+}
+
+.cocoros .blue {
+  filter: hue-rotate(394deg) drop-shadow(0px 0px 3px #000) brightness(0) contrast(1.5);
+}
+.cocoros .red{
+  filter: brightness(1.2) contrast(1.5) drop-shadow(0px 0px 3px #000);
+}
+.cocoros .gray {
+  filter: brightness(2) drop-shadow(0px 0px 3px #000);
+}
+
+/* Typo */
+
+.type {
+  height: 101px;
+  width: auto;
+  position: absolute;
+  top: 790px;
+  right: 71px;
+  z-index: 13;
+}
+
+/* Image */
+
+.editbox1 {
+  background-color: #d2d2d2;
+  width: 600px;
+  padding: 20px;
+}
+
+.editbox2{
+  /* background-color: #efefef; */
+  width: 600px;
+  padding: 20px;
+}
+
+.descarga {
+  background-color: goldenrod;
   color: white;
+  padding: 10px 15px;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.descarga:hover {
+  background-color: rgb(161, 125, 33);
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sku {
+  font-family: "MadeTommyMeidum";
+  font-size: 20px;
+  position: absolute;
+  bottom: 52px;
+    left: 70px;
+}
+
+.ilus {
+  font-family: "MadeTommyMeidum";
+  position: absolute;
+  top: 82px;
+  /* background: red; */
+  right: 39px;
+  z-index: 30;
+  height: 500px;
+  width: 30px;
+}
+
+.ilus p {
+  width: 500px;
+  /* transform: rotate(-90deg); */
+  /* height: 30px; */
+  position: absolute;
+  transform: rotateZ(-90deg);
+  top: 385px;
+  margin: 0;
+  left: -238px;
 }
