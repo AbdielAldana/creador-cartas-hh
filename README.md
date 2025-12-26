@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Creador de Cartas – Heyra Hunters
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Herramienta web para la **creación de cartas personalizadas** del juego de mesa tipo TCG **Heyra Hunters**.
 
-## Available Scripts
+El proyecto surgió como apoyo interno para el desarrollo del juego, permitiendo generar cartas de forma rápida y consistente, sin depender de procesos manuales o de ilustración en cada iteración.
 
-In the project directory, you can run:
+🔗 Demo: https://hhcarts.abdielaldana.com/
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🃏 Concepto
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+El juego **Heyra Hunters** fue una idea desarrollada en colaboración con otras dos personas, donde se definieron mecánicas, reglas y estilo general.
 
-### `npm test`
+Este proyecto se enfocó exclusivamente en:
+- Agilizar la creación de cartas.
+- Estandarizar el formato visual.
+- Permitir iterar mecánicas sin fricción.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El **creador de cartas** fue desarrollado de forma individual.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🧩 Características
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Creación de cartas personalizadas desde el navegador.
+- Edición de textos, valores y atributos.
+- Vista previa inmediata de la carta.
+- Formato visual consistente.
+- Herramienta pensada para uso interno del desarrollo del juego.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🛠️ Tecnologías utilizadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
+- CSS
+- JavaScript
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📌 Estado del proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Proyecto **discontinuado**.
 
-## Learn More
+- El juego **Heyra Hunters** fue abandonado con el tiempo.
+- La página principal nunca se finalizó.
+- El **creador de cartas funciona al 100%** en la demo publicada.
+- El código disponible en este repositorio corresponde a una **versión antigua**.
+- La versión exacta desplegada en producción no fue conservada.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+El repositorio se mantiene como:
+- Herramienta funcional de referencia.
+- Ejemplo de solución práctica para prototipado de juegos de mesa.
+- Proyecto creativo personal.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 👤 Autor
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**Abdiel Aldana**  
+Profesor, programador e ilustrador.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🌐 https://abdielaldana.com  
+💻 https://github.com/AbdielAldana
